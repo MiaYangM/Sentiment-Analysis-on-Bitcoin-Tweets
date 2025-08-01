@@ -34,6 +34,8 @@ This project analyzes the sentiment of 2,000 tweets about Bitcoin using a variet
 5. **LSTM (pre-trained GloVe embeddings):**  
    - RNN classifier with pre-trained GloVe word vectors.
    - Includes validation split and early stopping.
+   - Pre-trained Word Vectors uses [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/).  
+     You can download the pre-trained vectors [here](https://nlp.stanford.edu/data/glove.6B.zip).
 
 6. **Pre-trained Transformer (Zero-shot):**  
    - Applies a Hugging Face transformer pipeline (DistilBERT) to the data.
@@ -62,9 +64,12 @@ A summary table at the end of the notebook compares all approaches.
    ```bash
    pip install -r requirements.txt
    ```
-3. **Start Jupyter Notebook:**
-   ```bash
-   jupyter notebook
+3. **Running the Notebook:**
+
+This project is designed to be run on [Google Colab](https://colab.research.google.com/).  
+Simply open the notebook in Colab and follow the cells.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_NOTEBOOK_LINK_HERE)
    ```
 4. **Open and run `Sentiment_Analysis_Bitcoin_tweets_te.ipynb`.**
    - Make sure you have the required data files in the same directory, if not included.
