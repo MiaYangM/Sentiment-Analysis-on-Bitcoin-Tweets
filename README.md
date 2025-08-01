@@ -34,8 +34,8 @@ This project analyzes the sentiment of 2,000 tweets about Bitcoin using a variet
 5. **LSTM (pre-trained GloVe embeddings):**  
    - RNN classifier with pre-trained GloVe word vectors.
    - Includes validation split and early stopping.
-   - Pre-trained Word Vectors uses [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/).  
-     You can download the pre-trained vectors [here](https://nlp.stanford.edu/data/glove.6B.zip).
+   - Pre-trained Word Vectors uses [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/).
+     You can download the pre-trained vectors glove.2024.wikigiga.100d.zip  [here]([https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.100d.zip])
 
 6. **Pre-trained Transformer (Zero-shot):**  
    - Applies a Hugging Face transformer pipeline (DistilBERT) to the data.
