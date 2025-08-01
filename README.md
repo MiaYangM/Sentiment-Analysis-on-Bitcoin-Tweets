@@ -35,7 +35,7 @@ This project analyzes the sentiment of 2,000 tweets about Bitcoin using a variet
    - RNN classifier with pre-trained GloVe word vectors.
    - Includes validation split and early stopping.
    - Pre-trained Word Vectors uses [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/).
-     You can download the pre-trained vectors glove.2024.wikigiga.100d.zip  [here]([https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.100d.zip])
+     You can download the pre-trained vectors glove.2024.wikigiga.100d.zip  [here](https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.100d.zip)
 
 6. **Pre-trained Transformer (Zero-shot):**  
    - Applies a Hugging Face transformer pipeline (DistilBERT) to the data.
@@ -59,38 +59,35 @@ A summary table at the end of the notebook compares all approaches.
 
 ## **Usage**
 
-1. **Clone this repo and unzip the archive (if necessary).**
+1. **Clone this repository and unzip the archive if needed.**
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Running the Notebook:**
+3. **Run on Google Colab:**
 
-This project is designed to be run on [Google Colab](https://colab.research.google.com/).  
-Simply open the notebook in Colab and follow the cells.
+   This project is intended to be executed in [Google Colab](https://colab.research.google.com/).  
+   To get started, simply open the notebook in Colab and run each cell in sequence.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_NOTEBOOK_LINK_HERE)
-   ```
-4. **Open and run `Sentiment_Analysis_Bitcoin_tweets_te.ipynb`.**
-   - Make sure you have the required data files in the same directory, if not included.
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_NOTEBOOK_LINK_HERE)
+
+4. **Open and execute `Sentiment_Analysis_Bitcoin_tweets_te.ipynb`.**
+   - Ensure that all required data files are present in the working directory. If the data files are not included in this repository, please add them manually.
 
 ---
 
 ## **Python Version**
 
-**This project was developed and tested with Python 3.11.**  
-Check the top of the notebook for the version used.
+**Developed and tested with Python 3.11.**  
+See the notebook header for the exact version used in this project.
 
 ---
 
 ## **Notes**
 
-- For reproducibility, random seeds are set where possible.
-- Some models may require a GPU (recommended for LSTM and transformers).
-- Data files (tweets) are not included due to privacy/compliance; please add them as required.
+- Random seeds are set wherever possible to improve reproducibility.
+- Some models (e.g., LSTM, transformers) benefit significantly from GPU acceleration.
+- Data files containing tweets are **not included** in this repository due to privacy and compliance considerations; please add them as needed.
 
 ---
-
-## **Contact**
-
 For questions or issues, please open an issue on this repository.
