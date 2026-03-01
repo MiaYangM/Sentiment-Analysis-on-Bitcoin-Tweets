@@ -69,7 +69,7 @@ A summary table at the end of the notebook compares all approaches.
    This project is intended to be executed in [Google Colab](https://colab.research.google.com/).  
    To get started, simply open the notebook in Colab and run each cell in sequence.
 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_NOTEBOOK_LINK_HERE)
+   [![Open In Colab](https://colab.research.google.com/drive/1QnvedLiNb7z0GAKtsBj7iwFXMRG6HCUK]
 
 4. **Open and execute `Sentiment_Analysis_Bitcoin_tweets_te.ipynb`.**
    - Ensure that all required data files are present in the working directory. If the data files are not included in this repository, please add them manually.
